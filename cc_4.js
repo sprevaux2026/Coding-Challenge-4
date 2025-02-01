@@ -74,3 +74,11 @@ function calculateTax(amount, taxRate) {
 
 let tax = calculateTax(2000, 0.07); //$2000 with a 7% tax rate
 console.log(`Calculated Tax: $${tax.toFixed(2)}`);
+
+// Task 9: Function Expressions - Discount Application
+const applyDiscount = function(price, discountPercentage) {
+    return price - (price * (discountPercentage / 100));
+};
+
+let discountedPrice = applyDiscount(1000, 25); // $1000 with a 152% discount
+console.log(`Discounted Price: $${discountedPrice.toFixed(2)}`);
