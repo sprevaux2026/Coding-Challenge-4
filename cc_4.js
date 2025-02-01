@@ -82,3 +82,9 @@ const applyDiscount = function(price, discountPercentage) {
 
 let discountedPrice = applyDiscount(1000, 25); // $1000 with a 25% discount
 console.log(`Discounted Price: $${discountedPrice.toFixed(2)}`);
+
+// Task 10: Arrow Functions - Loyalty Points
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10);
+
+let points = calculatePoints(250); // $250 purchase for 25 points
+console.log(`Loyalty Points Earned: ${points}`);
