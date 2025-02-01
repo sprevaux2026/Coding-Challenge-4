@@ -19,3 +19,13 @@ for (let i = 0; i < sales.length; i++) {
 }
 
 console.log(`Total Sales: $${totalSales}`);
+
+// Task 3: While Loop - Inventory Depletion
+let stock = 100;
+
+// Use a while loop to decrease stock until it reaches 0
+while (stock > 0) {
+    console.log(`Current stock: ${stock}`);
+    stock--;
+}
+console.log(`Final stock: ${stock}`);
