@@ -80,5 +80,5 @@ const applyDiscount = function(price, discountPercentage) {
     return price - (price * (discountPercentage / 100));
 };
 
-let discountedPrice = applyDiscount(1000, 25); // $1000 with a 152% discount
+let discountedPrice = applyDiscount(1000, 25); // $1000 with a 25% discount
 console.log(`Discounted Price: $${discountedPrice.toFixed(2)}`);
