@@ -38,3 +38,16 @@ do {
     responses++;
     console.log(`Response count: ${responses}`);
 } while (responses < 3);
+
+// Task 5: For...In Loop - Employee Information
+let employee = {
+    name: "Peter Parker",
+    position: "Hero",
+    salary: 750000
+};
+
+// Iterate over the employee object properties
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
+
