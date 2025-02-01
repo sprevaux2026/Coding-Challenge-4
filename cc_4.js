@@ -51,3 +51,10 @@ for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 }
 
+// Task 6: For...Of Loop - Product Listings
+let products = ["Reactor", "Tank", "Aircraft"];
+
+// Iterate over each product using for...of loop
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}
