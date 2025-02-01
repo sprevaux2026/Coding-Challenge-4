@@ -58,3 +58,11 @@ let products = ["Reactor", "Tank", "Aircraft"];
 for (let product of products) {
     console.log(`Product: ${product}`);
 }
+
+// Task 7: forEach() Method - Order Processing
+let orderIDs = [101, 102, 103];
+
+// Using forEach to go over order IDs
+orderIDs.forEach(orderID => {
+    console.log(`Order ID: ${orderID}`);
+});
