@@ -29,3 +29,12 @@ while (stock > 0) {
     stock--;
 }
 console.log(`Final stock: ${stock}`);
+
+// Task 4: Do...While Loop - Customer Survey
+let responses = 0;
+
+// Simulate collecting responses until responses reach 3
+do {
+    responses++;
+    console.log(`Response count: ${responses}`);
+} while (responses < 3);
